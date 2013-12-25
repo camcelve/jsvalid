@@ -1,3 +1,4 @@
+$(function() {
 
             function register() {
 
@@ -48,6 +49,4 @@
                 }
 
             }
-
-
-    
+});

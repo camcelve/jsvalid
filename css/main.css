@@ -79,18 +79,18 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid rgba(255,255,255,0.65);
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid rgba(255,255,255,0.65);
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+    background: rgba(0,0,0,0.75);
 }
 
 .title {
@@ -162,9 +162,14 @@ nav a:hover {
    Author's custom styles
    ========================================================================== */
 
+.center {
+    width: 10rem;
+    margin-left: 28rem;
+}
 
-
-
+form input {
+    margin-left: 4rem;
+}
 
 
 
